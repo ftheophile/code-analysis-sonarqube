@@ -1,0 +1,7 @@
+version: '3'
+services:
+  jenkins-server:
+    image: jenkins/jenkins:2.391
+    ports:
+      - 8083:8080
+      - 50000:50000
